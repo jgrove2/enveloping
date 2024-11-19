@@ -1,4 +1,5 @@
 <script lang="ts">
+	let {TEST_VAR} = "$env/static/private";
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcomeFallback from '$lib/images/svelte-welcome.png';
@@ -19,6 +20,7 @@
 		</span>
 
 		to your new<br />SvelteKit app
+		{TEST_VAR}
 	</h1>
 
 	<h2>
