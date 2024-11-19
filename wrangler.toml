@@ -79,6 +79,7 @@ pages_build_output_dir = ".svelte-kit/cloudflare"
 
 [env.production.vars]
 PUBLIC_TEST_VAR = "abc123"
+AUTH_SECRET = "8d99997c4185b9d5b4d0c40fa6973d2be21a99de"
 
 # [[env.production.kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
