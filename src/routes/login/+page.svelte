@@ -4,7 +4,9 @@
 	import { goto } from '$app/navigation';
 
 	$effect(() => {
+		console.log($page.data)
 		if ($page.data.session) {
+			console.log("TEST")
 			goto('/');
 		}
 	});
