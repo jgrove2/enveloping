@@ -16,7 +16,7 @@
 
 {#if !$page.data.session}
 	<h1>You are not logged in</h1>
-	<button onclick={() => signIn("github")}>Sign in with Github</button>
+	<button onclick={signIn}>Sign in with Github</button>
 {/if}
 
 <style>
