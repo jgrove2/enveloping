@@ -37,5 +37,9 @@
     "vite": "^5.0.3",
     "vitest": "^2.0.4",
     "wrangler": "^3.87.0"
+  },
+  "dependencies": {
+    "@auth/core": "^0.37.4",
+    "@auth/sveltekit": "^1.7.4"
   }
 }

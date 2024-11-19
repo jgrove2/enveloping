@@ -77,8 +77,8 @@ pages_build_output_dir = ".svelte-kit/cloudflare"
 
 ######## PRODUCTION environment config ########
 
-# [env.production.vars]
-# API_KEY = "abc123"
+[env.production.vars]
+PUBLIC_TEST_VAR = "abc123"
 
 # [[env.production.kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
